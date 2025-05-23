@@ -33,36 +33,38 @@ public class CardTrick {
         //Then report the result here
         // add one luckcard hard code 2,clubs
         
-        Scanner input = new Scanner(System.in);
+        // Scanner input = new Scanner(System.in);
         
-        System.out.println("Pick a number: ");
-        int number = input.nextInt();
-        input.nextLine();
+        // System.out.println("Pick a number: ");
+        // int number = input.nextInt();
+        // input.nextLine();
         
-        System.out.println("Pick a suit: ");
-        String suit = input.nextLine();
+        // System.out.println("Pick a suit: ");
+        // String suit = input.nextLine();
         
-        Card test1 = new Card();
-        test1.setValue(number);
-        test1.setSuit(suit);
-        
-        
-        boolean matchTest = false;
+        // Card test1 = new Card();
+        // test1.setValue(number);
+        // test1.setSuit(suit);
         
         
-        for (Card c2 : magicHand){
-            if(c2.getValue()== number && c2.getSuit().equals(suit)){
-                matchTest = true;
-            }
-        }
+        // boolean matchTest = false;
         
-        if (matchTest){
-            System.out.println("They match!!");
-        }
-        else{
-            System.out.println("Oops they don't match");
-        }
         
+        // for (Card c2 : magicHand){
+        //     if(c2.getValue()== number && c2.getSuit().equals(suit)){
+        //         matchTest = true;
+        //     }
+        // }
+        
+        // if (matchTest){
+        //     System.out.println("They match!!");
+        // }
+        // else{
+        //     System.out.println("Oops they don't match");
+        // }
+
+
+        Card luckyCard = new Card();
         
  
     }
