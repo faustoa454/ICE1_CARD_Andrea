@@ -65,6 +65,25 @@ public class CardTrick {
 
 
         Card luckyCard = new Card();
+
+        luckyCard.setValue(4);
+        luckyCard.setSuit("Hearts");
+
+        boolean matchTest = false;
+        
+        
+        for (Card c2 : magicHand){
+            if(c2.getValue()== number && c2.getSuit().equals(suit)){
+                matchTest = true;
+            }
+        }
+        
+        if (matchTest){
+            System.out.println("They match!!");
+        }
+        else{
+            System.out.println("Oops they don't match");
+        }
         
  
     }
