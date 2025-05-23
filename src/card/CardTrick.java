@@ -64,6 +64,8 @@ public class CardTrick {
         // }
 
 
+        Scanner input = new Scanner(System.in);
+
         int number = input.nextInt();
         String suit = input.nextLine();
 
