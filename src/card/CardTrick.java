@@ -64,6 +64,10 @@ public class CardTrick {
         // }
 
 
+        int number = input.nextInt();
+        String suit = input.nextLine();
+
+        
         Card luckyCard = new Card();
 
         luckyCard.setValue(4);
